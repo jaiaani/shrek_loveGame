@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Satisfy&family=Secular+One&display=swap');
+@import url('http://fonts.cdnfonts.com/css/jlr-star-shrek');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: url(../imgs/bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background: #767B15;
+    font-family: 'JLR Star Shrek', sans-serif;
+    font-size: 25px;
+}
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    
+}
+.container{
+    background: rgba(255, 255, 255, 0.603);
+    width: 600px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50px;
+    font-family: 'Courgette', cursive;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+.container h3 {
+    padding-top: 10px;
+    font-family: 'Courgette', cursive;
+    
+}
+.container img {
+    width: 230px;
+}
+.container p {
+    padding: 20px;
+}
+.container button {
+    margin-bottom: 20px;
+    border: none;
+    width: 200px;
+    height: 30px;
+    background: orange;
+    font-family: 'Secular One', sans-serif
+}
